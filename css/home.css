@@ -28,23 +28,62 @@
     margin: 0 auto;
 }
 .navcontainer {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: #252020e7;
     height: 46px;
+    
 }
 .navcontainer ul {
     list-style: none;
-
-
+    position: absolute;
+    width: 800px;
+    margin: 0 auto;
 }
 .navcontainer ul li{
+    
     display: list-item;
     float: left;
+    width: 19%;
+    height: 46px;
+    padding: 10px 0 8px;
+    text-align: center;
+}
+.navcontainer ul li:hover {
+    background-color: rgb(17, 17, 17);
 
+}
+.navcontainer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.navcontainer ul li a:visited {
+    color: #fff;
 }
 .calander {
     border: 1px solid black;
 }
+.mainContents { 
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+}
+.sommaryRoom {
+    margin-top: 50px;
+    height: 800px;
+}
+.sommaryRoom div {
+    display: block;
+    position: relative;
+    text-align: left;
+    margin: 30px 0;
+}
+.sommaryRoom p {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
 
+}
