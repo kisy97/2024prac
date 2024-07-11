@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/Login.css">
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <h1 class="loginText">로그인</h1>
+        </div>
+    </header>
+    <main class="mainLogin">
+        <div class="loginContainer">
+            <form name="loginForm" id="loginForm">
+                <div class="inputId">
+                    <input type="text" name="loginId" id="loginId" class="logTag" placeholder="아이디를 입력해 주세요.">
+
+                </div>
+                <div class="inputPw">
+                    <input type="password" name="loginPw" id="loginPw" class="logTag" placeholder="비밀번호를 입력해 주세요.">
+
+                </div>
+                <div class="chkLogin">
+                    <input type="checkbox" name="saveLogin" id="saveLogin">
+                    <label for="saveLogin">아이디 저장</label>
+                </div>
+                <div class="btnLogin">
+                    <button type="submit" class="login">로그인</button>
+                </div>
+                <div class="linkAccount">
+                    <ul class="linkUser">
+                        <li>
+                            <a href="#" class="linkTag" id="link_findAccount">아이디/비밀번호 찾기</a>
+
+                        </li>
+                        <li>
+                            <a href="#" class="linkTag" id="link_sign">회원가입</a>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footerLogin">
+        <div class="footerLoginContainer">
+            <a href="#">호텔 메인페이지</a>
+        </div>
+    </footer>
+</body>
+
+</html>
