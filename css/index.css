@@ -134,10 +134,13 @@ footer {
     color: #fff;
 }
 .address {
-    display: inline-block;
+    height: 55px;
+    text-align: left;
+    margin-left: 140px;
+    
 }
 .term {
-    display: inline-block;
+
 }
 
 
