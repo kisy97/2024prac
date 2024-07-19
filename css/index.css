@@ -18,7 +18,7 @@
     height: 100%;
 }
 .logo img {
-    width: 200px;
+    width: 180px;
     height: 100%;
 }
 .login{
@@ -45,8 +45,8 @@
     width: 800px;
     margin: 0 auto;
 }
-.navcontainer ul li{
-    
+.navcontainer > ul > li{
+    position: relative;
     display: list-item;
     float: left;
     width: 19%;
@@ -54,10 +54,31 @@
     padding: 10px 0 8px;
     text-align: center;
 }
+.navcontainer > ul > li > ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+}
+
+.navcontainer > ul > li > ul > li{
+    background-color: rgb(41, 38, 38);
+    font-size: 20px;
+    color: white;
+    height: 40px;
+    padding: 10px;
+
+}
 .navcontainer ul li:hover {
     background-color: rgb(17, 17, 17);
 
 }
+.navcontainer ul li:hover > ul{
+    height: 150px;
+}
+
 .navcontainer ul li a {
     color: #fff;
     text-decoration: none;
@@ -123,7 +144,7 @@
 
 }
 .sommaryProduct img {
-    width: 300px;
+    width: 250px;
 }
 .sommaryProduct div {
     display: block;
