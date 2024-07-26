@@ -89,7 +89,7 @@
 
 .calander {
     border: 1px solid black;
-    margin: 0 auto 10px;
+    margin: 0 auto;
     height: 60px;
 }
 .formCalander {
@@ -112,6 +112,25 @@
     color: #fff;
     border: none;
 }
+.slideContent {
+    width: 100%;
+    height: 400px;
+    background-color: #ff8080;
+    position: relative;
+    overflow: hidden;
+}
+.slideContent > img {
+    position: absolute;
+    top: 0;
+    left: -100%;
+}
+.slideContent > img:hover {
+    transition: 1s;
+    scale: 130%;
+}
+.slideContent > img:first-child {
+    left: 0;
+}
 
 
 .mainContents { 
@@ -119,6 +138,8 @@
     margin: 0 auto;
     width: 70%;
 }
+
+
 .sommaryRoom {
     margin-top: 50px;
 }
