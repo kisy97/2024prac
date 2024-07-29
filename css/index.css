@@ -30,6 +30,7 @@
     height: 100%;
     margin: 0 auto;
 }
+/* 메뉴 */
 .navcontainer {
     position: relative;
     display: flex;
@@ -37,7 +38,7 @@
     align-items: center;
     background-color: #252020e7;
     height: 46px;
-    
+    z-index: 10;
 }
 .navcontainer ul {
     list-style: none;
@@ -114,7 +115,7 @@
 }
 .slideContent {
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-color: #ff8080;
     position: relative;
     overflow: hidden;
@@ -125,7 +126,7 @@
     left: -100%;
 }
 .slideContent > img:hover {
-    transition: 1s;
+    transition: 2s;
     scale: 130%;
 }
 .slideContent > img:first-child {
