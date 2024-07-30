@@ -123,14 +123,15 @@
 .slideContent > img {
     position: absolute;
     top: 0;
-    left: -100%;
+    left: 0;
+    opacity: 0;
 }
 .slideContent > img:hover {
     transition: 2s;
     scale: 130%;
 }
 .slideContent > img:first-child {
-    left: 0;
+    opacity: 1;
 }
 
 

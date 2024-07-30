@@ -6,7 +6,7 @@ var timer = setInterval('autoslide()', 3000);
 
 function autoslide() {
     $(slide[sno]).stop().animate({
-        left: '100%'
+        opacity: 0
     }, 1000, function () {
         $(this).css({ left: "-100%" });
     });
@@ -15,7 +15,7 @@ function autoslide() {
         sno = 0;
     }
     $(slide[sno]).stop().animate({
-        left: '0'
+        opacity: 1
     }, 1000)
 
 }
