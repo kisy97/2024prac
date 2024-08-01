@@ -48,11 +48,13 @@ header {
 /* 헤더 > 메뉴 */
 nav{
     width: 600px;
-    margin: 30px 0 0 370px;
+    margin-left: 370px;
+    margin-top: 30px;
 }
 .menu {
     display: flex;
 }
+
 .menu > li{
     width: 25%;
     position: relative;
@@ -61,8 +63,9 @@ nav{
     display: block;
     text-align: center;
     height: 40px;
-    background-color: lightseagreen;
     padding: 5px;
+    background-color: lightseagreen;
+
 }
 .menu li:hover > a {
     background-color: rgb(14, 65, 62);
