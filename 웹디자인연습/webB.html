@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/webB.css">
+</head>
+
+<body>
+    <header>
+        <div class="inner">
+            <div class="logo"><a href="#">대한은행</a></div>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="#">개인</a>
+                        <ul class="subMenu">
+                            <li><a href="#">조회</a></li>
+                            <li><a href="#">이체</a></li>
+                            <li><a href="#">공과금</a></li>
+                            <li><a href="#">예금/신탁</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">기업</a>
+                        <ul class="subMenu">
+                            <li><a href="#">조회</a></li>
+                            <li><a href="#">이체</a></li>
+                            <li><a href="#">전자결제</a></li>
+                            <li><a href="#">수표/어음</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">금융상품</a>
+                        <ul class="subMenu">
+                            <li><a href="#">저축상품</a></li>
+                            <li><a href="#">대출상품</a></li>
+                            <li><a href="#">투자상품</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">카드</a>
+                        <ul class="subMenu">
+                            <li><a href="#">카드정보</a></li>
+                            <li><a href="#">카드신청</a></li>
+                            <li><a href="#">이용내역조회</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="slide">
+                <img src="./images/food1.jpg" alt="슬라이드이미지1">
+                <img src="./images/food2.jpg" alt="슬라이드이미지2">
+                <img src="./images/food3.jpg" alt="슬라이드이미지3">
+                <img src="./images/food4.jpg" alt="슬라이드이미지4">
+                <img src="./images/food5.jpg" alt="슬라이드이미지5">
+            </div>
+        </section>
+        <section>
+            <div class="content">
+                <div class="tab">
+                    <ul class="tabmenu">
+                        <li class="on"><a href="#">공지사항</a></li>
+                        <li><a href="#">갤러리</a></li>
+                    </ul>
+                    <div class="tabItem">
+                        <ul class="notice on">
+                            <li><a href="javascript:openPop()">제30회 정기출사 및 모임 안내</a><span>2020-03-30</span></li>
+                            <li><a href="#">동호회 1분기 모임 안내</a><span>2020-03-25</span></li>
+                            <li><a href="#">2020 복지박람회 참가 안내</a><span>2020-03-23</span></li>
+                            <li><a href="#">3월 동호회 모임 안내</a><span>2020-03-05</span></li>
+                        </ul>
+                        <ul class="gallery">
+                            <li><a href="#"><img src="./images/gallery1.jpg" alt="갤러리1"></a></li>
+                            <li><a href="#"><img src="./images/gallery2.jpg" alt="갤러리2"></a></li>
+                            <li><a href="#"><img src="./images/gallery3.jpg" alt="갤러리3"></a></li>
+                        </ul>
+                    </div>
+                    <div class="contentpop">
+                        <h2>제30회 정기출사 및 모임 안내</h2>
+                        <hr>
+                        <p>
+                            울긋불긋 단풍 가득한 가을을 카메라에 담고자
+                            제 30회 정기출사 모임을 아래와 같이 갖고자합니다. <br>
+                            <br>
+                            <br>
+                            일시 : 2019년 11월 16이 토요일 아침 10시<br>
+                            장소 : 분당 중앙공원 정자<br>
+                            출사후 회식 장소 : 2시 서현역근처 까투리
+                        </p>
+                        <button class="exit" onclick="closePop()">닫기</button>
+                    </div>
+                </div>
+                <div class="banner">
+                    <img src="./images/city.jpg" alt="">
+                    <a href="#">바로가기</a>
+                </div>
+                <div class="link">
+                    <img src="./images/sport.jpg" alt="">
+                    <a href="#">바로가기</a>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="inner">
+            <div class="footerlogo"><a href="#">대한은행</a></div>
+            <div class="fright">
+                <div class="footerMenu">
+                    <ul>
+                        <li><a href="#"><img src="./images/logo1.png" alt="하단메뉴아이콘"></a></li>
+                        <li><a href="#"><img src="./images/logo1.png" alt="하단메뉴아이콘"></a></li>
+                        <li><a href="#"><img src="./images/logo1.png" alt="하단메뉴아이콘"></a></li>
+                    </ul>
+                </div>
+                <div class="copy"><p>copyright All rights reserved 대한은행</p></div>
+            </div>
+        </div>
+    </footer>
+    <script src="../JQuery.js"></script>
+    <script src="./js/webB.js"></script>
+</body>
+
+</html>
